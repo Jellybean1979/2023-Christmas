@@ -1,11 +1,29 @@
-```html
 <!DOCTYPE html>
 <html>
     <head>
         <style>
+            body {
+                background-color: #d13f30;
+                color: white;
+                font-family: Arial, sans-serif;
+            }
+            
+            h1 {
+                text-align: center;
+                margin-top: 20px;
+            }
+            
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+            
             .alien {
-                width: 100px;
-                height: 100px;
+                width: 200px;
+                height: 200px;
                 position: relative;
                 animation-name: dance;
                 animation-duration: 1s;
@@ -23,11 +41,12 @@
         </style>
     </head>
     <body>
-        <div class="alien">
-            <div class="tenor-gif-embed" data-postid="11913373" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/aliens-dancing-dance-gif-11913373">Aliens Dancing GIF</a>from <a href="https://tenor.com/search/aliens-gifs">Aliens GIFs</a></div> 
-            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <div class="container">
+            <div class="alien">
+                <div class="tenor-gif-embed" data-postid="11913373" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/aliens-dancing-dance-gif-11913373">Aliens Dancing GIF</a> from <a href="https://tenor.com/search/aliens-gifs">Aliens GIFs</a></div>
+                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+            </div>
+            <h1>Merry Christmas from the Langley's</h1>
         </div>
-        <h1 style="text-align: center; margin-top: 20px;">Merry Christmas from the Langley's</h1>
     </body>
 </html>
-```
