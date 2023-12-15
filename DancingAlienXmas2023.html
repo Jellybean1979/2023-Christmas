@@ -44,7 +44,7 @@
 
             /* Snowfall Animation Styles */
             .snowflake {
-                position: absolute;
+                position: fixed;
                 height: 10px;
                 width: 10px;
                 background-color: #ffffff;
@@ -54,8 +54,12 @@
             }
 
             @keyframes snowfall {
-                0% { transform: translateY(-100%); }
-                100% { transform: translateY(100vh); }
+                0% { 
+                    transform: translateY(-100vh) translateX(50%);
+                }
+                100% { 
+                    transform: translateY(100vh) translateX(50%);
+                }
             }
         </style>
     </head>
